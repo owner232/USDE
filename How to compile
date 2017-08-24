@@ -1,0 +1,12 @@
+
++How to compile on unbuntu server
++git clone https://github.com/usde-project/USDE.git
++cd USDE
++
++Here is how to compile.
++
++cd src/leveldb
++chmod a+x build_detect_platform
++cd ..
++make -f makefile.unix USE_UPNP=-
++./usded
